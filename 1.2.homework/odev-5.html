@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- türkçe karakter -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hamit Mızrak Türkcell" />
+    <meta name="description" content="Html5 property" />
+
+    <title>Html5</title>
+    
+</head>
+
+<body>
+    <!-- start code -->
+    <form action="form.html" method="get" autocomplete="on">
+        <div>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" placeholder="your name" required autofocus />
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="your email" required/>
+        </div>
+        <br>
+        <div>
+            <label for="password44">Password:</label>
+            <input type="password" id="password44" name="password44"  required/>
+        </div>
+        <br>
+        <div>
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="number" id="phoneNumber" name="phoneNumber" >
+        </div>
+        <br>
+        <div>
+            <label >Gender</label>
+
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender" checked  />
+            
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender"  />
+            
+            <label for="other">Other:</label>
+            <input  type="radio" id="other" name="gender"  />
+
+        </div>
+        <br>
+        <div>
+            <label >Language</label>
+            <select name="backend_data" id="data" >
+                <option value="0" >Select language</option>
+                <option value="backend_turkish" >Turkish</option>
+                <option value="backend_english" >English</option>
+                <option value="backend_german" >German</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="zipCode">Zip Code:</label>
+            <input type="number" id="zipCode" name="zipCode" >
+        </div>
+        <br>
+        <div>
+            <label for="About">About:</label>
+            <input  type="text" id="About" name="About" placeholder="write about yourself" required autofocus />
+        </div>
+        <br>
+        <div>
+            
+            <input type="submit" value="Register">
+        </div>
+
+    </form>
+    <!-- ends code -->
+</body>
+
+</html>
